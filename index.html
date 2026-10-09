@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototipo</title>
+    <link rel="stylesheet" href="cor.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+</head>
+
+<body>
+    <h1>Protótipo</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+    <a class="navbar-brand" href="#">Mega loja </a>
+
+
+    <button class="navbar-toggler" data-bs-toggle="collapse"
+            data-bs-target="#menu" aria-controls="menu"
+            aria-expanded="false" aria-label="Abrir navegação">
+      <span class="navbar-toggler-icon"></span>
+  
+    </button>
+
+    <div id="menu" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item"> <a class="nav-link" href="#">Início</a>   </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Produtos</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Contato</a>  </li>
+        <li class="nav-item"> <a class="nav-link position-relative" href="#"> <span class="fas fa-shopping-cart"></span>
+    <!-- Contador -->
+        <span class="badge bg-danger rounded-pill position-absolute top-0 start-100 translate-middle id="cart-badge"> 0 </span>
+  </a>
+</li>  
+    </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="Produtos" class="container">
+  <div class="row mt-5" >
+
+    <!-- Card 1: Notebook Dell -->
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <img src="https://th.bing.com/th/id/OIP.88uqW3NKFwxvZGLu5jfmeAHaE8?w=296&h=197&c=7&r=0&o=7&pid=1.7&rm=3" class="img-fluid" alt="Notebook Dell">
+          <h5 class="card-title">Notebook Dell</h5>
+          <p class="card-text">R$ 3.500,00</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Apple -->
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <img src="https://th.bing.com/th/id/OIP.oe7I3ImO0IGTu4IXxu0gBQHaF7?w=224&h=180&c=7&r=0&o=7&pid=1.7&rm=3" class="img-fluid" alt="Apple">
+          <h5 class="card-title">Apple</h5>
+          <p class="card-text">R$ 4.000,00</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: Televisão -->
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <img src="https://th.bing.com/th/id/OIP.nquhRLq_wXjavLwpXbrQnQHaFp?w=234&h=180&c=7&r=0&o=7&pid=1.7&rm=3" class="img-fluid" alt="TV">
+          <h5 class="card-title">Televisão</h5>
+          <p class="card-text">R$ 3.800,00</p>
+          <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="operacional.js"></script>
+</body>
+
+
+
+</html>
